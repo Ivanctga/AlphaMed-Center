@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlphaMed Center - Excelência Médica</title>
+    <meta name="description"
+        content="O AlphaMed Center oferece atendimento médico moderno e humanizado com tecnologia de ponta e mais de 10 anos de experiência.">
+    <link rel="icon" type="image/png" href="assets/img/icon.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-hospital-user"></i>
+                AlphaMed Center
+            </a>
+            <nav class="navbar" id="navbar">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Início</a></li>
+                    <li><a href="#about" class="nav-link">Sobre</a></li>
+                    <li><a href="#services" class="nav-link">Serviços</a></li>
+                    <li><a href="#doctors" class="nav-link">Médicos</a></li>
+                    <li><a href="#gallery" class="nav-link">Galeria</a></li>
+                    <li><a href="#contact" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="btn btn-primary cta-btn">Agendar Consulta</a>
+            <button class="mobile-toggle" id="mobile-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="hero-shape"></div>
+            <div class="container hero-container">
+                <div class="hero-content" data-aos="fade-up">
+                    <span class="subtitle"><i class="fa-solid fa-heart-pulse"></i> Sua Saúde é Nossa Prioridade</span>
+                    <h1 class="title">Excelência <span>Médica</span> em que Você Pode Confiar</h1>
+                    <p class="description">
+                        Viva uma experiência de saúde de alto nível com nossas instalações modernas, médicos
+                        especialistas e abordagem humana dedicada ao seu bem-estar.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#about" class="btn btn-primary">Saiba Mais</a>
+                        <a href="#services" class="btn btn-secondary">Nossos Serviços</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <h3>10k+</h3>
+                            <p>Pacientes Satisfeitos</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>50+</h3>
+                            <p>Médicos Especialistas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left">
+                    <div class="image-wrapper">
+                        <img src="assets/img/hero.jpg" alt="Professional Doctor at AlphaMed Center" style="object-fit: cover;">
+                        <div class="floating-badge">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <div>
+                                <strong>Mais Bem Avaliado</strong>
+                                <span>Clínica 2026</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section bg-light">
+            <div class="container about-container">
+                <div class="about-content" data-aos="fade-right">
+                    <span class="section-subtitle">Sobre Nossa Clínica</span>
+                    <h2 class="section-title">Dedicados a Oferecer o Melhor Cuidado Médico</h2>
+                    <p class="section-description">
+                        No AlphaMed Center, acreditamos que a saúde vai além do tratamento dos sintomas. É sobre
+                        construir relacionamentos duradouros com nossos pacientes e fortalecer uma comunidade mais
+                        saudável.
+                    </p>
+
+                    <ul class="about-features">
+                        <li>
+                            <div class="feature-icon"><i class="fa-solid fa-calendar-check"></i></div>
+                            <div class="feature-text">
+                                <h4>+10 Anos de Experiência</h4>
+                                <p>Uma década de atendimento médico confiável e excelência.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="feature-icon"><i class="fa-solid fa-hand-holding-medical"></i></div>
+                            <div class="feature-text">
+                                <h4>Atendimento Humanizado</h4>
+                                <p>Tratamos cada paciente com empatia, respeito e carinho.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="feature-icon"><i class="fa-solid fa-microscope"></i></div>
+                            <div class="feature-text">
+                                <h4>Tecnologia de Ponta</h4>
+                                <p>Equipados com os últimos avanços médicos para diagnósticos precisos.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <img src="assets/img/sobre.jpg" alt="Instalações Modernas do AlphaMed Center" class="about-img">
+                    <div class="experience-badge">
+                        <span class="years">10+</span>
+                        <span class="text">Anos de <br>Experiência</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services section">
+            <div class="container">
+                <div class="section-header text-center" data-aos="fade-up">
+                    <span class="section-subtitle">Nossa Especialidade</span>
+                    <h2 class="section-title">Serviços Médicos de Excelência</h2>
+                    <p class="section-description">Soluções completas de saúde personalizadas para suas necessidades.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-icon"><i class="fa-solid fa-stethoscope"></i></div>
+                        <h3 class="service-title">Consulta Geral</h3>
+                        <p class="service-desc">Avaliações de saúde completas e check-ups de rotina pelos nossos médicos
+                            especialistas.</p>
+                        <a href="#" class="service-link"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-icon"><i class="fa-solid fa-heart-crack"></i></div>
+                        <h3 class="service-title">Cardiologia</h3>
+                        <p class="service-desc">Cuidados cardíacos avançados incluindo diagnóstico, tratamento e
+                            programas de prevenção.</p>
+                        <a href="#" class="service-link"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-icon"><i class="fa-solid fa-baby"></i></div>
+                        <h3 class="service-title">Pediatria</h3>
+                        <p class="service-desc">Atendimento gentil e especializado para bebês, crianças e adolescentes.
+                        </p>
+                        <a href="#" class="service-link"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-icon"><i class="fa-solid fa-vials"></i></div>
+                        <h3 class="service-title">Exames Laboratoriais</h3>
+                        <p class="service-desc">Testes diagnósticos rápidos e precisos com equipamentos de última
+                            geração.</p>
+                        <a href="#" class="service-link"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Service 5 -->
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="service-icon"><i class="fa-solid fa-truck-medical"></i></div>
+                        <h3 class="service-title">Atendimento de Emergência</h3>
+                        <p class="service-desc">Atendimento médico imediato 24/7 para situações urgentes e traumas.</p>
+                        <a href="#" class="service-link"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Service 6 -->
+                    <div class="service-card highlight" data-aos="fade-up" data-aos-delay="600">
+                        <h3 class="service-title text-white">Precisa de um Tratamento Específico?</h3>
+                        <p class="service-desc text-white">Fale com nossos consultores médicos para encontrar o
+                            especialista certo para sua necessidade.</p>
+                        <a href="#contact" class="btn btn-light mt-3">Entre em Contato</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Doctors Section -->
+        <section id="doctors" class="doctors section bg-light">
+            <div class="container">
+                <div class="section-header text-center" data-aos="fade-up">
+                    <span class="section-subtitle">Nossos Especialistas</span>
+                    <h2 class="section-title">Conheça Nossos Médicos Especialistas</h2>
+                    <p class="section-description">Profissionais dedicados a oferecer o mais alto padrão de cuidado
+                        médico.</p>
+                </div>
+
+                <div class="doctors-grid">
+                    <!-- Doctor 1 -->
+                    <div class="doctor-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="doctor-img">
+                            <img src="assets/img/doctor1.jpg" alt="Dr. Robert Smith">
+                            <div class="doctor-socials">
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="doctor-info">
+                            <h3 class="doctor-name">Dr. Robert Smith</h3>
+                            <span class="doctor-specialty">Chefe de Cardiologia</span>
+                            <p class="doctor-bio">Mais de 15 anos de experiência em procedimentos cardíacos complexos e
+                                cuidados preventivos.</p>
+                        </div>
+                    </div>
+
+                    <!-- Doctor 2 -->
+                    <div class="doctor-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="doctor-img">
+                            <img src="assets/img/doctor2.jpg" alt="Dr. Sarah Johnson">
+                            <div class="doctor-socials">
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="doctor-info">
+                            <h3 class="doctor-name">Dr. Sarah Johnson</h3>
+                            <span class="doctor-specialty">Chefe de Pediatria</span>
+                            <p class="doctor-bio">Dedicada à saúde infantil, garantindo uma experiência confortável para
+                                os pequenos pacientes.</p>
+                        </div>
+                    </div>
+
+                    <!-- Doctor 3 -->
+                    <div class="doctor-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="doctor-img">
+                            <img src="assets/img/doctor3.jpg" alt="Dr. Michael Chen">
+                            <div class="doctor-socials">
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="doctor-info">
+                            <h3 class="doctor-name">Dr. Michael Chen</h3>
+                            <span class="doctor-specialty">Neurologista</span>
+                            <p class="doctor-bio">Especialista no tratamento de distúrbios do sistema nervoso com
+                                terapias avançadas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery section">
+            <div class="container">
+                <div class="section-header text-center" data-aos="fade-up">
+                    <span class="section-subtitle">Nossas Instalações</span>
+                    <h2 class="section-title">Um Ambiente Moderno de Cura</h2>
+                    <p class="section-description">Projetado para conforto, eficiência e os mais altos padrões de
+                        higiene.</p>
+                </div>
+
+                <div class="gallery-slider-container" data-aos="fade-up" data-aos-delay="100">
+                    <div class="gallery-track-wrapper">
+                        <div class="gallery-track">
+                            <div class="gallery-slide">
+                                <div class="gallery-item">
+                                    <img src="assets/img/galeria1.jpg" alt="Instalações da Clínica">
+                                    <div class="gallery-overlay">
+                                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-slide">
+                                <div class="gallery-item">
+                                    <img src="assets/img/galeria2.jpg" alt="Recepção da Clínica">
+                                    <div class="gallery-overlay">
+                                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-slide">
+                                <div class="gallery-item">
+                                    <img src="assets/img/galeria3.jpg" alt="Sala de Espera">
+                                    <div class="gallery-overlay">
+                                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-slide">
+                                <div class="gallery-item">
+                                    <img src="assets/img/galeria4.jpg" alt="Sala de Consulta">
+                                    <div class="gallery-overlay">
+                                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-slide">
+                                <div class="gallery-item">
+                                    <img src="assets/img/galeria5.jpg" alt="Equipamentos Modernos">
+                                    <div class="gallery-overlay">
+                                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-slide">
+                                <div class="gallery-item">
+                                    <img src="assets/img/galeria6.jpg" alt="Laboratório">
+                                    <div class="gallery-overlay">
+                                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="slider-btn prev-btn" aria-label="Imagem anterior"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button class="slider-btn next-btn" aria-label="Próxima imagem"><i class="fa-solid fa-chevron-right"></i></button>
+                    <div class="slider-dots"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section bg-light">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-info-container" data-aos="fade-right">
+                        <span class="section-subtitle">Entre em Contato</span>
+                        <h2 class="section-title">Estamos Aqui Para Você</h2>
+                        <p class="section-description mb-4">Entre em contato para agendamentos, dúvidas ou assistência
+                            de emergência. Nossa equipe está sempre pronta para ajudar.</p>
+
+                        <div class="contact-info-items">
+                            <div class="contact-info-item">
+                                <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="content">
+                                    <h4>Nossa Localização</h4>
+                                    <p>123 Medical Avenue, Health District, NY 10001</p>
+                                </div>
+                            </div>
+                            <div class="contact-info-item">
+                                <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                                <div class="content">
+                                    <h4>Telefone</h4>
+                                    <p>+1 (555) 123-4567<br>+1 (555) 987-6543</p>
+                                </div>
+                            </div>
+                            <div class="contact-info-item">
+                                <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="content">
+                                    <h4>Email</h4>
+                                    <p>contact@alphamed.com<br>support@alphamed.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container" data-aos="fade-left">
+                        <form class="contact-form" id="contactForm">
+                            <h3 class="form-title">Agende uma Consulta</h3>
+                            <div class="form-group">
+                                <input type="text" id="name" class="form-control" placeholder="Nome Completo" required>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <input type="email" id="email" class="form-control" placeholder="Endereço de Email"
+                                        required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" id="phone" class="form-control" placeholder="Telefone" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <select class="form-control" id="department" required>
+                                    <option value="" disabled selected>Selecione o Departamento</option>
+                                    <option value="general">Consulta Geral</option>
+                                    <option value="cardiology">Cardiologia</option>
+                                    <option value="pediatrics">Pediatria</option>
+                                    <option value="laboratory">Exames Laboratoriais</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" class="form-control" rows="4"
+                                    placeholder="Sua mensagem ou sintomas"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Agendar Consulta <i
+                                    class="fa-solid fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="logo text-white">
+                        <i class="fa-solid fa-hospital-user"></i>
+                        AlphaMed Center
+                    </a>
+                    <p class="footer-desc">Oferecendo serviços de saúde de excelência com compaixão, expertise e
+                        tecnologia de ponta.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#about">Sobre Nós</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#doctors">Nossos Médicos</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Departamentos</h4>
+                    <ul>
+                        <li><a href="#">Cardiologia</a></li>
+                        <li><a href="#">Neurologia</a></li>
+                        <li><a href="#">Pediatria</a></li>
+                        <li><a href="#">Ortopedia</a></li>
+                        <li><a href="#">Odontologia</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-newsletter">
+                    <h4 class="footer-title">Boletim</h4>
+                    <p>Assine nosso boletim para receber dicas de saúde e novidades da clínica.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Seu Email" required>
+                        <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 AlphaMed Center. Todos os direitos reservados. Desenvolvido por Você.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-actions">
+        <button id="scrollToTop" class="floating-btn scroll-top-btn" aria-label="Voltar ao topo">
+            <i class="fa-solid fa-arrow-up"></i>
+        </button>
+        <a href="https://wa.me/5511999999999" target="_blank" class="floating-btn whatsapp-btn" aria-label="Fale conosco no WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
